@@ -121,7 +121,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |10>
-print("Prueba con |10>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
