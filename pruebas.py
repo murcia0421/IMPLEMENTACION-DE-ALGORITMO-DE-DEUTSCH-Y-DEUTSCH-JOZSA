@@ -7,6 +7,16 @@ import matplotlib.pyplot as plt
 def printMat(mat):
     for i in mat:
         print(" ".join(list(map(str, i))))
+
+# Función No 1
+print("Función No 1: 0 -> 0, 1 -> 0")
+print()
+print("Matriz")
+print()
+printMat([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
+print()
+print("Circuito y prueba con cada uno de los qubits")
+print()
         
 # Prueba con |00>
 simulator = Aer.get_backend('qasm_simulator')
@@ -83,9 +93,9 @@ print()
 # Función No 2
 print("Función No 2: 0 -> 0, 1 -> 1")
 print()
-print("Matriz")
+print("Mat")
 print()
-printMatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]])
+printMat([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]])
 print()
 print("Circuito y prueba con cada uno de los qubits")
 print()
@@ -156,9 +166,9 @@ plt.show()
 # Función No 3
 print("Función No 3: 0 -> 1, 1 -> 1")
 print()
-print("Matriz")
+print("Mat")
 print()
-printMatrix([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]])
+printMat([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]])
 print()
 print("Circuito y prueba con cada uno de los qubits")
 print()
@@ -234,9 +244,9 @@ plt.show()
 # Función No 4
 print("Función No 4: 0 -> 1, 1 -> 0")
 print()
-print("Matriz")
+print("Mat")
 print()
-printMatrix([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
+printMat([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
 print()
 print("Circuito y prueba con cada uno de los qubits")
 print()
