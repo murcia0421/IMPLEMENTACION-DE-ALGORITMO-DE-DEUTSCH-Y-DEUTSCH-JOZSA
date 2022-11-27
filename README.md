@@ -1,23 +1,5 @@
 # IMPLEMENTACION-DE-ALGORITMO-DE-DEUTSCH-Y-DEUTSCH-JOZSA
 
-*Prerequisitos*
-Lenguaje de programación Python, Idle o ejecución del programa desde terminal, además es necesario contar con las librerías de Qiskit, Qiskit.visualization y mathplotlib.
+# PREREQUISITOS
 
-*Instalación y Ejecución*
-Descarga de los archivos que estan en el repositorio y usarlos en un ejecutable de phyton.
-
-*Ejecución de Pruebas*
-Archivo pruebas_funcion
-El archivo contiene la ejecución de cada una de las funciones {0,1} -> {0,1}.
-
-En este se puede encontrar primeramente una función printMatrix que permite imprimir la matriz correspondiente a cada función.
-
-La prueba de cada una de las funciones se realizó con el siguiente formato, primeramente se señala cuál es la función que se está modelando, luego se imprime la matriz que modela su funcionamiento y por último se imprime el circuito que la implementa y se realiza una prueba con los qubits que pertenecen al espacio (C^4).
-
-*Archivo Deutsch*
-El archivo contiene la ejecución del algoritmo de Deutsch.
-
-En este se realizan las pruebas con las funciones modeladas anteriormente y se determina si la función que se prueba es balanceada o constante para verificar su validez. Al ejecutar el archivo se pueden ver cada uno de sus resultados.
-
-Archivo Deutsch-Jozsa
-El archivo contiene la ejecución las funciones n = 2 que permiten probar el algoritmo de Deutsch-Jozsa.
+Lenguaje de programación Python, tambien es necesario tener instaladas las librerías de Qiskit, Qiskit.visualization y mathplotlib.
