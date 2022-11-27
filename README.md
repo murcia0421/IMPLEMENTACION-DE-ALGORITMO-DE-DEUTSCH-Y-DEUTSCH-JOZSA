@@ -21,7 +21,7 @@ En este apartado del repositorio se hicieron las pruebas con las funciones model
 
 Igual que en el anterior, contiene la ejecucion del algoritmo Deutsch-jozsa.
 
-#INFORME
+# INFORME
 
 [informe algoritmo de deutsch y deutsch-jozsa.pdf](https://github.com/murcia0421/IMPLEMENTACION-DE-ALGORITMO-DE-DEUTSCH-Y-DEUTSCH-JOZSA/files/10099216/informe.algoritmo.de.deutsch.y.deutsch-jozsa.pdf)
 
