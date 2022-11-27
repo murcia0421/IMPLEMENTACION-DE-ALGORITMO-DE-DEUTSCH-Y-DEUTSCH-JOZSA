@@ -14,9 +14,6 @@ print()
 print("Matriz")
 print()
 printMat([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
-print()
-print("Circuito y prueba con cada uno de los qubits")
-print()
         
 # Prueba con |00>
 simulator = Aer.get_backend('qasm_simulator')
@@ -96,9 +93,6 @@ print()
 print("Mat")
 print()
 printMat([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]])
-print()
-print("Circuito y prueba con cada uno de los qubits")
-print()
 
 # Prueba con |00>
 simulator = Aer.get_backend('qasm_simulator')
@@ -169,9 +163,6 @@ print()
 print("Mat")
 print()
 printMat([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]])
-print()
-print("Circuito y prueba con cada uno de los qubits")
-print()
 
 # Prueba con |00>
 simulator = Aer.get_backend('qasm_simulator')
@@ -247,9 +238,7 @@ print()
 print("Mat")
 print()
 printMat([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
-print()
-print("Circuito y prueba con cada uno de los qubits")
-print()
+
 
 # Prueba con |00>
 simulator = Aer.get_backend('qasm_simulator')
