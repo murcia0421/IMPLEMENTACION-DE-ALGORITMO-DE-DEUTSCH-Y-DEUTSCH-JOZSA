@@ -4,7 +4,7 @@
 
 Lenguaje de programación Python, tambien es necesario tener instaladas las librerías de Qiskit, Qiskit.visualization y mathplotlib.
 
-#PRUEBAS
+# PRUEBAS
 
 en este repositorio de github, puede encontrar un apartado que dice pruebas.
 
