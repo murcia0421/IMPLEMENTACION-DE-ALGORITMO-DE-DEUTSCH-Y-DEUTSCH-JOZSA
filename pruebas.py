@@ -9,7 +9,6 @@ def printMat(mat):
         print(" ".join(list(map(str, i))))
         
 # Prueba con |00>
-print("Prueba con |00>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.barrier()
@@ -27,7 +26,6 @@ plt.show()
 print()
 
 # Prueba con |01>
-print("Prueba con |01>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(1)
@@ -46,7 +44,6 @@ plt.show()
 print()
 
 # Prueba con |10>
-print("Prueba con |10>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -65,7 +62,6 @@ plt.show()
 print()
 
 # Prueba con |11>
-print("Prueba con |11>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -95,7 +91,6 @@ print("Circuito y prueba con cada uno de los qubits")
 print()
 
 # Prueba con |00>
-print("Prueba con |00>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.cx(0, 1)
@@ -110,7 +105,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |01>
-print("Prueba con |01>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(1)
@@ -144,7 +138,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |11>
-print("Prueba con |11>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -172,7 +165,6 @@ print("Circuito y prueba con cada uno de los qubits")
 print()
 
 # Prueba con |00>
-print("Prueba con |00>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -189,7 +181,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |01>
-print("Prueba con |01>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(1)
@@ -208,7 +199,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |10>
-print("Prueba con |10>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -225,7 +215,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |11>
-print("Prueba con |11>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -254,7 +243,6 @@ print("Circuito y prueba con cada uno de los qubits")
 print()
 
 # Prueba con |00>
-print("Prueba con |00>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -271,7 +259,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |01>
-print("Prueba con |01>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(1)
@@ -290,7 +277,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |10>
-print("Prueba con |10>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
@@ -309,7 +295,6 @@ plot_histogram(counts)
 plt.show()
 
 # Prueba con |11>
-print("Prueba con |11>")
 simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(2, 2)
 circuit.x(0)
