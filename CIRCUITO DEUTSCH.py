@@ -5,7 +5,6 @@ from qiskit.visualization import plot_histogram
 import matplotlib.pyplot as 
 
 
-print("Juan Daniel Murcia")
 # Use Aer's qasm_simulator
 simulator = Aer.get_backend('qasm_simulator')
 # Create a Quantum Circuit acting on the q register
