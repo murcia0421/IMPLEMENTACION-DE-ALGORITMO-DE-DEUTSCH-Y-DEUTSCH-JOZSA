@@ -2,6 +2,8 @@
 
 # PREREQUISITOS
 
+Esto necesitaras para correr la librería:
+
 Lenguaje de programación Python, tambien es necesario tener instaladas las librerías de Qiskit, Qiskit.visualization y mathplotlib.
 
 # PRUEBAS
